@@ -499,7 +499,7 @@ body {
   flex-direction: column;
   margin-right: 50px;
   padding: 45px 47px 45px 97px;
-  background-image: url("https://github.com/SVENmods/-DeinekaDemo/blob/4feda2665e8705a655fff985e71c271ae2bd2ad0/resource/bgpop.png");
+  background-image: url("https://raw.githubusercontent.com/SVENmods/-DeinekaDemo/main/resource/bgpop.png");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
