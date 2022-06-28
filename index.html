@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Лендинг Кровля</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <link rel="stylesheet" type="text/css" href="../css/media.css">
+     <!-- <link rel= "stylesheet" href= "mobile.css" media= "only screen and (max-device width:480px)"/> -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+     <script src="../js/jquery.maskedinput.min.js"></script>
+</head> 
+<body>
+     <div class="container">
+          <div class="header">
+               <div class="header__btns">
+                    <img src="../resource/Vector1.svg" alt="house">
+               </div>
+               <div class="header__btns">Каталог</div>
+               <div class="header__btns">Преимущества</div>
+               <div class="header__btns">Примеры работ</div>
+               <div class="header__btns">Монтаж</div>
+               <div class="header__btns">Отзывы</div>
+               <div class="header__btns">Ответы на вопросы</div>
+               <div class="header__btns">контакты</div>
+          </div>
+          <div class="underheader">
+               <div class="underheader__blocks">
+                    <span class="underheader__text-bold">Кровельные и фасадные материалы </span> в Тюмени и области.<br><br> Профессиональный монтаж с 2010 года.
+               </div>
+               <div class="underheader__blocks">
+                    <div class="link-circle pdf-circle">Pdf</div>
+                    <a href="#">Скачать прайс-каталог</a>
+               </div>
+               <div class="underheader__blocks"></div>
+               <div class="underheader__blocks">
+                    <div class="online">
+                         <div class="online__dot"></div>
+                         <div class="online__text"><span>Отвечаем</span><span>онлайн</span></div>
+                    </div>
+                    <div class="link-scope">
+                         <div class="link-circle viber">
+                              <img src="../resource/Viber.svg" alt="Viber">
+                         </div>
+                         <div class="link-circle whatsup">
+                              <img src="../resource/whts.svg" alt="whts">
+                         </div>
+                         <div class="link-circle telegram">
+                              <img src="../resource/tel.svg" alt="tel">
+                         </div>
+                    </div>
+               </div>
+               <div class="underheader__blocks">
+                    <div class="days">
+                         <div class="online__dot"></div>
+                         <span class="days__text">Пн-Пт </span> <span>9:00 - 18:00, </span> <span class="days__text"> Сб </span><span>10:00 - 18:00</span>
+                    </div>
+                    <div class="phone">8 (800) 222-54-60</div>
+                    <a id="openPOP">Позвоните мне</a>
+               </div>
+          </div>
+          <main class="main">
+               <div class="sidenav">
+                    <div class="sidenav__item">
+                         <span class="sidenav__text-bold">Гарантия от 50 лет</span>
+                         <span>на материалы и 5 лет на монтаж</span>
+                    </div>
+                    <div class="sidenav__item">
+                         <span class="sidenav__text-bold">Замер, монтажный проект</span>
+                         <span>и еще 4 услуги бесплатно</span>
+                    </div>
+                    <div class="sidenav__item">
+                         <span class="sidenav__text-bold">Сметы точны</span>
+                         <span>до копейки</span>
+                    </div>
+                    <div class="sidenav__item">
+                         <span class="sidenav__text-bold">Поэтапная оплата,</span>
+                         <span>кредит или рассрочка</span>
+                    </div>
+                    <div class="sidenav__item">
+                         <span class="sidenav__text-bold">Наши крыши в каждом поселке</span>
+                         <span>и дачном сообществе региона</span>
+                    </div>
+               </div>
+               <div class="content">
+                    <span class="content__title">
+                         Продажа <span class="content__bold">кровельных материалов </span>в Тюмени и Тюменской области
+                    </span>
+                    <div class="more">
+                         <div class="dots">
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                         </div>
+                         <span class="more__text">и монтаж под ключ</span>
+                    </div>
+                    <div class="content-btns">
+                         <div class="content__button">
+                              <p>Рассчитать стоимость<br>материалов и монтажа</p>
+                              <img src="../resource/arrow.svg" alt="arrow">
+                         </div>
+                         <div class="content__button">
+                              <p>записаться на<br>просмотр объектов</p>
+                              <img src="../resource/arrow.svg" alt="arrow">
+                         </div>
+                    </div>
+                    <div class="content-footer">
+                         <div class="footer__icon">
+                              <img src="../resource/pointer.svg" alt="pointer">
+                         </div>
+                         <div class="footer__text">
+                              <span>Ответьте на несколько 
+                                   вопросов и получите</span>
+                              сметную стоимость и 3 подарка за
+                              экономию нашего времени
+                         </div>
+                    </div>
+               </div>
+          </main>
+     </div>
+     <div class="popup" id="popup">
+          <div class="popup__wrapper">
+               <form class="popup__body"  id="popup__body" onsubmit="return validate()">
+                    <div class="popup__title">
+                         Быстро оставить заявку
+                    </div>
+                    <div class="popup__subtitle">
+                         Введите номер, мы позвоним вам в течение 10 минут в рабочее время
+                    </div>
+                    <div class="popup__days popup-text">
+                         Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00
+                    </div>
+                    <div class="popup__input">
+                         <label for="tel" class="popup-text">Введите номер телефона</label>
+                         <input type="text" id="tel" class="popup__btn" placeholder="+7 ( _ _ _) _ _ _ - _ _ - _ _" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" required>
+                    </div>
+                    <button type="submit" class="popup__btn btn-hover">
+                         Позвоните мне
+                         <img src="../resource/arrow2.svg" alt="arrow2" class="popup__arrow">
+                    </button>
+                    <div class="popup__check">
+                         <div class="checkbox">
+                              <input class="custom-checkbox" type="checkbox" id="checkbox-agree" name="checkbox-agree" value="yes">
+                              <label for="checkbox-agree">Нажимая кнопку вы соглашаетесь  с условиями</label><br>
+                              <a href="#" class="policy">Политики конфиденциальности</a>
+                         </div>
+                    </div>
+                    <div class="popup__error">
+                         <span id="errorMSG"></span>
+                    </div>
+               </form>
+               <div class="popup__conf" id="popup__conf">
+                    <div class="popup__title">
+                         Вы успешно отправили заявку
+                    </div>
+                    <div class="popup__subtitle">
+                         Мы перезвоним вам в течении 10 минут
+                    </div>
+                    <div class="underheader__blocks"></div>
+               </div>
+               <div class="popup__close"></div>
+          </div>
+     </div>
+     <div class="mobile">
+          <div class="mobile__container">
+               <div class="mobile__top">
+                    <div class="mob-logo"></div>
+                    <div class="top-info">
+                         <div class="days">
+                              <div class="online__dot"></div>
+                              <span class="days__text">Пн-Пт </span> <span>9:00 - 18:00, </span> <span class="days__text"> Сб </span><span>10:00 - 18:00</span>
+                         </div>
+                         <div class="phone">8 (800) 222-54-60</div>
+                         <a id="openPOP">Позвоните мне</a>
+                    </div>
+               </div>
+               <div class="mobheader">
+                    <div class="header__block">
+                         <nav role='navigation'>
+                              <div id="menuToggle">
+                                   <input type="checkbox" />
+                                   <span class="stripe"></span>
+                                   <span class="stripe"></span>
+                                   <span class="stripe"></span>
+                                   <ul id="menu">
+                                        <a href="#">
+                                             <li><img src="../resource/Vector1.svg" alt="house"></li>
+                                        </a>
+                                        <a href="#">
+                                             <li>каталог</li>
+                                        </a>
+                                        <a href="#">
+                                             <li>Преимущества</li>
+                                        </a>
+                                        <a href="#">
+                                             <li>Примеры работ</li>
+                                        </a>
+                                        <a href="#">
+                                             <li>монтаж</li>
+                                        </a>
+                                        <a href="#">
+                                             <li>отзывы</li>
+                                        </a>
+                                        <a href="#">
+                                             <li>Ответы на вопросы</li>
+                                        </a>
+                                        <div class="mob-nav-footer">
+                                             <div class="add-text"><div class="add-text-bold">Кровельные и фасадные материалы</div> в Тюмени и области. 
+                                                  Профессиональный монтаж
+                                                  с 2010 года.
+                                             </div>
+                                             <div class="pdf-block">
+                                                  <div class="link-circle pdf-circle">Pdf</div>
+                                                  <a href="#">Скачать прайс-каталог</a>
+                                             </div>
+                                             <div class="online">
+                                                  <div class="online__dot"></div>
+                                                  <div class="online__text"><span>Отвечаем</span><span>онлайн</span></div>
+                                             </div>
+                                             <div class="link-scope">
+                                                  <div class="link-circle viber">
+                                                       <img src="../resource/Viber.svg" alt="Viber">
+                                                  </div>
+                                                  <div class="link-circle whatsup">
+                                                       <img src="../resource/whts.svg" alt="whts">
+                                                  </div>
+                                                  <div class="link-circle telegram">
+                                                       <img src="../resource/tel.svg" alt="tel">
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </ul>
+                                   
+                              </div>
+                         </nav>
+                    </div>
+               </div>
+               <div class="mobile-body">
+                    <span class="content__title">
+                         Продажа <span class="content__bold">кровельных материалов </span>в Тюмени и Тюменской области
+                    </span>
+                    <div class="more">
+                         <div class="dots">
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                              <div class="dots__item"></div>
+                         </div>
+                         <span class="more__text">и монтаж под ключ</span>
+                    </div>
+                    <div class="content-footer">
+                         <div class="footer__icon">
+                         </div>
+                         <div class="footer__text">
+                              <span>Ответьте на несколько 
+                                   вопросов и получите</span>
+                              сметную стоимость и 3 подарка за
+                              экономию нашего времени
+                         </div>
+                    </div>
+                    <div class="content-btns">
+                         <div class="content__button">
+                              <p>Рассчитать стоимость<br>материалов и монтажа</p>
+                              <img src="../resource/arrow.svg" alt="arrow">
+                         </div>
+                         <div class="content__button">
+                              <p>записаться на<br>просмотр объектов</p>
+                              <img src="../resource/arrow.svg" alt="arrow">
+                         </div>
+                    </div>
+                    <div class="option-block-cut">
+                         <a class="pulse-btn" id="pulse-close">
+                              <img src="../resource/+.png" alt="plus" width="9.13" height="9.13">
+                         </a>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Гарантия от 50 лет</span>
+                              <span>на материалы и 5 лет на монтаж</span>
+                              <span class="open-me">Нажмите на плюсик, чтобы увидеть
+                                   все преимущества работы с нами</span>
+                         </div>
+                    </div>
+                    <div class="optin-block">
+                         <a class="pulse-btn">
+                              <img src="../resource/cross.svg" alt="cross" width="9.13" height="9.13">
+                         </a>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Гарантия от 50 лет</span>
+                              <span>на материалы и 5 лет на монтаж</span>
+                         </div>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Замер, монтажный проект</span>
+                              <span>и еще 4 услуги бесплатно</span>
+                         </div>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Сметы точны</span>
+                              <span>до копейки</span>
+                         </div>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Поэтапная оплата,</span>
+                              <span>кредит или рассрочка</span>
+                         </div>
+                         <div class="sidenav__item">
+                              <span class="sidenav__text-bold">Наши крыши в каждом поселке</span>
+                              <span>и дачном сообществе региона</span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <script src="../js/index.js"></script>
+</body>
+</html>
