@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   display: flex;
-  background-image: url("../resource/BG.png");
+  background-image: url("resource/BG.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -172,7 +172,7 @@ body {
 .underheader__blocks:nth-child(3) {
   height: 148px;
   width: 274px;
-  background-image: url("../resource/logo.svg");
+  background-image: url("resource/logo.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -499,7 +499,7 @@ body {
   flex-direction: column;
   margin-right: 50px;
   padding: 45px 47px 45px 97px;
-  background-image: url("../resource/bgpop.png");
+  background-image: url("resource/bgpop.png");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -524,7 +524,7 @@ body {
   display: flex;
   width: 20px;
   height: 20.41px;
-  background-image: url("../resource/close.svg");
+  background-image: url("resource/close.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -814,7 +814,7 @@ body {
   opacity: 1;
 }
 .mobile .mobheader__block:nth-child(1) {
-  background-image: url("../resource/logo.svg");
+  background-image: url("resource/logo.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -827,7 +827,7 @@ body {
   justify-content: center;
   width: 225px;
   height: 367px;
-  background-image: url("../resource/Mobform.svg");
+  background-image: url("resource/Mobform.svg");
   flex-direction: column;
   padding: 0px 39px 0px 30px;
 }
@@ -839,7 +839,7 @@ body {
   justify-content: center;
   width: 225px;
   height: 367px;
-  background-image: url("../resource/Mobform.svg");
+  background-image: url("resource/Mobform.svg");
   flex-direction: column;
   padding: 0px 39px 0px 30px;
 }
@@ -940,7 +940,7 @@ body {
 .mobile .mobile__top .mob-logo {
   width: 75px;
   height: 52px;
-  background-image: url("../resource/logomob.svg");
+  background-image: url("resource/logomob.svg");
   background-position: -30px 0px;
   background-repeat: no-repeat;
   background-size: 200% 200%;
