@@ -200,7 +200,7 @@
      }
      body{
           display: flex;
-          background-image: url("resource/bgmob.png");
+          background-image: url("https://github.com/SVENmods/-DeinekaDemo/blob/d9ebdfbc4d85862659cd4554039c4076edd1225c/resource/bgmob.png");
           background-position: 0px 0px;
           background-repeat: no-repeat;
           background-size: cover;
