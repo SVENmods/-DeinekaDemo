@@ -198,11 +198,6 @@
      .container {
           display: none;
      }
-     *{
-          overflow:hidden;
-          overflow-y:hidden;
-          overflow-x:hidden;
-     }
      body{
           display: flex;
           background-image: url("https://raw.githubusercontent.com/SVENmods/-DeinekaDemo/main/resource/bgmob.png");
