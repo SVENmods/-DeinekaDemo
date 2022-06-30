@@ -198,6 +198,11 @@
      .container {
           display: none;
      }
+     *{
+          overflow:hidden;
+          overflow-y:hidden;
+          overflow-x:hidden;
+     }
      body{
           display: flex;
           background-image: url("https://raw.githubusercontent.com/SVENmods/-DeinekaDemo/main/resource/bgmob.png");
@@ -208,6 +213,9 @@
           overflow-y: hidden;
           justify-content: center;
           align-items: center;
+          overflow:hidden;
+          overflow-y:hidden;
+          overflow-x:hidden;
      }
      .mobile-body{
           text-align: center;
