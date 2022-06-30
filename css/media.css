@@ -208,9 +208,6 @@
           overflow-y: hidden;
           justify-content: center;
           align-items: center;
-          overflow:hidden;
-          overflow-y:hidden;
-          overflow-x: auto;
      }
      .mobile-body{
           text-align: center;
